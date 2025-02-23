@@ -12,7 +12,7 @@
 
 import java.util.Scanner;
 
-public class MovieDriver {
+public class MovieDriver_Task2 {
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
         Movie movie = new Movie(); // Create a movie object
