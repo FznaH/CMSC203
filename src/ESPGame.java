@@ -55,7 +55,7 @@ public class ESPGame {
             // Determine the number of colors to read based on user selection
             int colorLimit = (option == OPTION_ONE) ? 16 : (option == OPTION_TWO) ? 10 : 5;
 
-            if (file.exists()) { // Check if file exists
+            if (file.exists() && file.getName().equals("colors.txt")) { // Check if file exists
                 System.out.println("There are " + colorLimit + " colors from the file:");
             } else {
                 System.out.println("File does not exist.");
